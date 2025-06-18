@@ -7,7 +7,7 @@ class Age {
         System.out.print("Enter age: ");
         int age = sc.nextInt();
 
-        if (age > 18) {
+        if (age >= 18) {
             System.out.println("Is Adult");
         } else {
             System.out.println("Not Adult");
